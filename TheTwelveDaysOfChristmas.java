@@ -1,7 +1,9 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
+// Initialize day and dayString
     int day = 1;
     String dayString = "1st";
+// Loop through each of the twelve days
     while (day <= 12) {
       switch (String.valueOf(day)) {
         case "1":
@@ -52,6 +54,7 @@ public class TheTwelveDaysOfChristmas {
           day++;
           break;
       }
+// Print the verses for the current day
       System.out.print("On the " + dayString + " day of ");
       System.out.println("Christmas, my true love gave to me");
       if (day >= 13){
