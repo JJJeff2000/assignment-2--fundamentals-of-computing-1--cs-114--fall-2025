@@ -91,8 +91,7 @@ public class TheTwelveDaysOfChristmas {
         System.out.println("Two turtle doves, and");
       }
       if (day >= 2){
-        System.out.println("A partridge in a pear tree.");
-        System.out.println(" ");
+        System.out.println("A partridge in a pear tree. \n");
       }
     }
   }

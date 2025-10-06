@@ -8,8 +8,7 @@ public class OneHundredBottlesOfBeer {
       System.out.print("If one of those bottles");
       System.out.println(" should happen to fall");
 // Use the i variable to print the correct number of bottles left
-      System.out.println(i - 1 + " bottles of beer on the wall");
-      System.out.println(" ");
+      System.out.println(i - 1 + " bottles of beer on the wall\n");
     }
   }
 }

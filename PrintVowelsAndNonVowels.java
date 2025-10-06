@@ -6,9 +6,7 @@ public class PrintVowelsAndNonVowels {
 // Prompt the user to enter text
     System.out.print("Please type something here: ");
     String textInput = scanner.nextLine();
-    System.out.println(" ");
-    System.out.println("Reading...");
-    System.out.println(" ");
+    System.out.println("Reading...\n");
 // Make the vowel counting veriables
     int aCount = 0;
     int eCount = 0;
@@ -40,12 +38,9 @@ public class PrintVowelsAndNonVowels {
             }
         }
 // Print the results
-        System.out.println("Total number of non-vowels:");
-        System.out.println(" ");
-        System.out.println("Non-vowels: " + nonVowelCount);
-        System.out.println(" ");
-        System.out.println("Total number of vowels:");
-        System.out.println(" ");
+        System.out.println("Total number of non-vowels: \n");
+        System.out.println("Non-vowels: " + nonVowelCount + "\n");
+        System.out.println("Total number of vowels:\n");
         System.out.println("a: " + aCount);
         System.out.println("e: " + eCount);
         System.out.println("i: " + iCount);
